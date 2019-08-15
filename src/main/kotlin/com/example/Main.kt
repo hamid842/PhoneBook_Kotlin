@@ -1,8 +1,8 @@
 package com.example
 
-import com.example.fileService.fileReading
+
+import com.example.services.listCommands
 
 fun main(args: Array<String>) {
-    val fileContent = fileReading("D:/HAMID/KOTLIN/PROJECTS/PhoneBook_Kotlin/phonebook.txt")
-    println(fileContent)
+    listCommands()
 }
